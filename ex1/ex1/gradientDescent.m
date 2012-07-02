@@ -7,6 +7,7 @@ function [theta, J_history] = gradientDescent(X, y, theta, alpha, num_iters)
 m = length(y); % number of training examples
 J_history = zeros(num_iters, 1);
 
+
 for iter = 1:num_iters
 
     % ====================== YOUR CODE HERE ======================
@@ -17,17 +18,19 @@ for iter = 1:num_iters
     %       of the cost function (computeCost) and gradient here.
     %
 
-    derivative1 = computeDerivative(X, y, theta, ones(m,2))
-    derivative2 = computeDerivative(X, y, theta, X)
+    d1 = sum (X * theta - y);
+    d2 = sum ((X * theta - y) .* X(:,2));
 
-    theta(1,1) = theta(1,1) - alpha * derivative1
-    theta(2,1) = theta(2,1) - alpha * derivative2
+    theta(1,1) = theta(1,1) - (alpha * d1) / m;
+    theta(2,1) = theta(2,1) - (alpha * d2) / m;
 
     %must be less than on pervious step
     %computeCost(X, y, theta)
     %grdient
     %alpha * derivative1
     %alpha * derivative2
+
+
 
     % ============================================================
 
@@ -40,15 +43,4 @@ end
 
 end
 
-
-function D = computeDerivative(X, y, theta, x)
-m = length(y);
-D = 0;
-for iter = 1:m
-    D = D + (theta' * X(iter,:)' - y(iter,:))' * x(iter,:);
-end
-
-D = D / m;
-
-end
 
