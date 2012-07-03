@@ -21,16 +21,15 @@ for iter = 1:num_iters
     d1 = sum (X * theta - y);
     d2 = sum ((X * theta - y) .* X(:,2));
 
-    theta(1,1) = theta(1,1) - (alpha * d1) / m;
-    theta(2,1) = theta(2,1) - (alpha * d2) / m;
+    %theta(1,1) = theta(1,1) - (alpha * d1) / m;
+    %theta(2,1) = theta(2,1) - (alpha * d2) / m;
+
+    d = [d1; d2];
+
+    theta = theta - (alpha / m) * d;
 
     %must be less than on pervious step
     %computeCost(X, y, theta)
-    %grdient
-    %alpha * derivative1
-    %alpha * derivative2
-
-
 
     % ============================================================
 

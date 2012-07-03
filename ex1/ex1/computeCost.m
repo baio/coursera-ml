@@ -16,13 +16,14 @@ J = 0;
 
 
 
-for iter = 1:m
+%for iter = 1:m
     %J = J + (theta(1, 1) * X(iter, 1) + theta(2, 1) * X(iter, 2) - y(iter, 1))^2;
-    J = J + (theta' * X(iter,:)' - y(iter,:))^2;
-end
+    %J = J + (theta' * X(iter,:)' - y(iter,:))^2;
+%end
 
-J = (J / (2 * m));
+%J = (J / (2 * m));
 
+J = sum((X * theta - y).^2) / (2 * m);
 
 % =========================================================================
 
