@@ -18,15 +18,18 @@ for iter = 1:num_iters
     %       of the cost function (computeCost) and gradient here.
     %
 
-    d1 = sum (X * theta - y);
-    d2 = sum ((X * theta - y) .* X(:,2));
+
+    %d1 = sum (X * theta - y);
+    %d2 = sum ((X * theta - y) .* X(:,2));
 
     %theta(1,1) = theta(1,1) - (alpha * d1) / m;
     %theta(2,1) = theta(2,1) - (alpha * d2) / m;
 
-    d = [d1; d2];
+    %d = [d1; d2];
 
-    theta = theta - (alpha / m) * d;
+    %d =  (X * theta - y);
+
+    theta = theta - alpha / m * (X' * (X * theta - y));
 
     %must be less than on pervious step
     %computeCost(X, y, theta)
@@ -35,7 +38,7 @@ for iter = 1:num_iters
 
 
 
-    % Save the cost J in every iteration    
+    % Save the cost J in every iteration
     J_history(iter) = computeCost(X, y, theta);
 
 end

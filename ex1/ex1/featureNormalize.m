@@ -35,7 +35,7 @@ sigma = std(X)
 
 X_norm = X - repmat(mu, [size(X,1),1]);
 
-X_norm = X_norm ./ repmat(sigma, [size(X,1),1])
+X_norm = X_norm ./ repmat(sigma, [size(X,1),1]);
 
 
 % ============================================================

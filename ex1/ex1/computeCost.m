@@ -14,7 +14,7 @@ J = 0;
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
 
-
+theta
 
 %for iter = 1:m
     %J = J + (theta(1, 1) * X(iter, 1) + theta(2, 1) * X(iter, 2) - y(iter, 1))^2;
