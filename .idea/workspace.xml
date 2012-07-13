@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2db9e7ec-0eba-4def-b95a-424ebc240dbe" name="Default" comment="" />
+    <list default="true" id="2db9e7ec-0eba-4def-b95a-424ebc240dbe" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="coursera-ml.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,91 +24,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sigmoid.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex2/ex2/sigmoid.m">
+      <file leaf-file-name="lrCostFunction.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex3/ex3/lrCostFunction.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="32" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
+            <state line="31" column="19" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="costFunction.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex2/ex2/costFunction.m">
+      <file leaf-file-name="oneVsAll.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex3/ex3/oneVsAll.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="44" selection-start="923" selection-end="966" vertical-scroll-proportion="0.0">
+            <state line="51" column="20" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="computeCost.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex1/ex1/computeCost.m">
+      <file leaf-file-name="predictOneVsAll.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ex3/ex3/predictOneVsAll.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="30" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0">
+            <state line="27" column="58" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.52698046">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="computeCostMulti.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex1/ex1/computeCostMulti.m">
+      <file leaf-file-name="ex3.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex3/ex3/ex3.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="38" selection-start="586" selection-end="624" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gradientDescent.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex1/ex1/gradientDescent.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="26" selection-start="949" selection-end="949" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ex2_reg.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex2/ex2/ex2_reg.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ex2.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex2/ex2/ex2.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="19" selection-start="2333" selection-end="2333" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plotDecisionBoundary.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex2/ex2/plotDecisionBoundary.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="predict.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex2/ex2/predict.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="costFunctionReg.m" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ex2/ex2/costFunctionReg.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="13" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.4879449">
+            <state line="56" column="0" selection-start="1786" selection-end="1786" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,8 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ex1/ex1/computeCostMulti.m" />
-        <option value="$PROJECT_DIR$/ex1/ex1/computeCost.m" />
         <option value="$PROJECT_DIR$/ex1/ex1/ex1.m" />
         <option value="$PROJECT_DIR$/ex1/ex1/gradientDescent.m" />
         <option value="$PROJECT_DIR$/ex1/ex1/featureNormalize.m" />
@@ -139,6 +85,10 @@
         <option value="$PROJECT_DIR$/ex2/ex2/costFunction.m" />
         <option value="$PROJECT_DIR$/ex2/ex2/predict.m" />
         <option value="$PROJECT_DIR$/ex2/ex2/costFunctionReg.m" />
+        <option value="$PROJECT_DIR$/ex3/ex3/lrCostFunction.m" />
+        <option value="$PROJECT_DIR$/ex3/ex3/ex3.m" />
+        <option value="$PROJECT_DIR$/ex3/ex3/oneVsAll.m" />
+        <option value="$PROJECT_DIR$/ex3/ex3/predictOneVsAll.m" />
       </list>
     </option>
   </component>
@@ -174,6 +124,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -192,6 +152,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="ex3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coursera-ml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coursera-ml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ex3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ex3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coursera-ml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coursera-ml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ex2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -222,38 +214,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="coursera-ml" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ex1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coursera-ml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coursera-ml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ex1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ex1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -353,39 +313,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ex1/ex1/normalEqn.m">
+    <entry file="file://$PROJECT_DIR$/ex2/ex2/costFunction.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="30" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex1/ex1/ex1data2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="13" selection-start="421" selection-end="433" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex1/ex1/ex1.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="25" selection-start="2094" selection-end="2121" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex1/ex1/gradientDescentMulti.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="41" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex1/ex1/ex1_multi.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="50" selection-start="4446" selection-end="4446" vertical-scroll-proportion="0.5706085" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex2/ex2/plotData.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="39" selection-start="517" selection-end="556" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex2/ex2/sigmoid.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0" />
+        <state line="24" column="44" selection-start="923" selection-end="966" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ex1/ex1/computeCost.m">
@@ -420,21 +350,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ex2/ex2/predict.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0">
+        <state line="23" column="0" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex3/ex3/ex3data1.mat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="12" selection-start="1612" selection-end="1612" vertical-scroll-proportion="-0.6934732">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex2/ex2/costFunction.m">
+    <entry file="file://$PROJECT_DIR$/ex3/ex3/displayData.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="44" selection-start="923" selection-end="966" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ex2/ex2/costFunctionReg.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="13" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.4879449">
+        <state line="24" column="0" selection-start="835" selection-end="1053" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex3/ex3/ex3_nn.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex3/ex3/ex3.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="0" selection-start="1786" selection-end="1786" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex3/ex3/lrCostFunction.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="19" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex3/ex3/oneVsAll.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="20" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex3/ex3/predictOneVsAll.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="58" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.52698046">
           <folding />
         </state>
       </provider>
