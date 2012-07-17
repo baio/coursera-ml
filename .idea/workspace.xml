@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2db9e7ec-0eba-4def-b95a-424ebc240dbe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex3/ex3/ex3_nn.m" afterPath="$PROJECT_DIR$/ex3/ex3/ex3_nn.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex3/ex3/ml_login_data.mat" afterPath="$PROJECT_DIR$/ex3/ex3/ml_login_data.mat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex3/ex3/predict.m" afterPath="$PROJECT_DIR$/ex3/ex3/predict.m" />
     </list>
     <ignored path="coursera-ml.iws" />
@@ -27,10 +24,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="predict.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="predict.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ex3/ex3/predict.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="75" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.0">
+            <state line="28" column="20" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.5464983">
               <folding />
             </state>
           </provider>
@@ -45,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex3_nn.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ex3_nn.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ex3/ex3/ex3_nn.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="28" selection-start="2292" selection-end="2292" vertical-scroll-proportion="0.6291619">
+            <state line="72" column="28" selection-start="2292" selection-end="2292" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,8 +87,8 @@
         <option value="$PROJECT_DIR$/ex3/ex3/ex3.m" />
         <option value="$PROJECT_DIR$/ex3/ex3/oneVsAll.m" />
         <option value="$PROJECT_DIR$/ex3/ex3/predictOneVsAll.m" />
-        <option value="$PROJECT_DIR$/ex3/ex3/predict.m" />
         <option value="$PROJECT_DIR$/ex3/ex3/ex3_nn.m" />
+        <option value="$PROJECT_DIR$/ex3/ex3/predict.m" />
       </list>
     </option>
   </component>
@@ -410,16 +407,16 @@
         <state line="33" column="36" selection-start="1420" selection-end="1420" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex3/ex3/predict.m">
+    <entry file="file://$PROJECT_DIR$/ex3/ex3/ex3_nn.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="75" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.0">
+        <state line="72" column="28" selection-start="2292" selection-end="2292" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex3/ex3/ex3_nn.m">
+    <entry file="file://$PROJECT_DIR$/ex3/ex3/predict.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="28" selection-start="2292" selection-end="2292" vertical-scroll-proportion="0.6291619">
+        <state line="28" column="20" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.5464983">
           <folding />
         </state>
       </provider>
