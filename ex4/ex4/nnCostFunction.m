@@ -89,8 +89,13 @@ yu = repmat([1:num_labels], m, 1) == repmat(y, 1, num_labels);
 %cost
 %sum error for each row, then for all rows
 
-J = sum(sum(yu .* (-log(h)) + (1 - yu) .* (-log(1 - h)))) / m
+J = sum(sum(yu .* (-log(h)) + (1 - yu) .* (-log(1 - h)))) / m;
 
 grad = [Theta1_grad(:) ; Theta2_grad(:)];
+
+%regularization
+r = (lambda * (sum(sum(Theta1(:,2:end).^2)) + sum(sum(Theta2(:,2:end).^2)))) / (2 * m);
+
+J = J + r;
 
 end
