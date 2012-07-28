@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2db9e7ec-0eba-4def-b95a-424ebc240dbe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ini.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ex4/ex4/_nnCostFunction.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex4/ex4/ex4.m" afterPath="$PROJECT_DIR$/ex4/ex4/ex4.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex4/ex4/ml_login_data.mat" afterPath="$PROJECT_DIR$/ex4/ex4/ml_login_data.mat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex4/ex4/nnCostFunction.m" afterPath="$PROJECT_DIR$/ex4/ex4/nnCostFunction.m" />
     </list>
     <ignored path="coursera-ml.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,64 +28,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="nnCostFunction.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="nnCostFunction.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ex4/ex4/nnCostFunction.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="0" selection-start="4178" selection-end="4178" vertical-scroll-proportion="0.4730195">
+            <state line="96" column="0" selection-start="3410" selection-end="3410" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex4.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ex4.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ex4/ex4/ex4.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="193" column="35" selection-start="6571" selection-end="6571" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ini.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ini.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="36" selection-start="0" selection-end="36" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="predict.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex3/ex3/predict.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="40" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="predictOneVsAll.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex3/ex3/predictOneVsAll.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="36" selection-start="1420" selection-end="1420" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sigmoid.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex3/ex3/sigmoid.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="costFunction.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex2/ex2/costFunction.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="1" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0">
+            <state line="102" column="6" selection-start="3394" selection-end="3394" vertical-scroll-proportion="0.29032257">
               <folding />
             </state>
           </provider>
@@ -115,15 +73,15 @@
         <option value="$PROJECT_DIR$/ex3/ex3/ex3_nn.m" />
         <option value="$PROJECT_DIR$/ex3/ex3/predict.m" />
         <option value="$PROJECT_DIR$/ini.txt" />
-        <option value="$PROJECT_DIR$/ex4/ex4/ex4.m" />
         <option value="$PROJECT_DIR$/ex4/ex4/nnCostFunction.m" />
+        <option value="$PROJECT_DIR$/ex4/ex4/ex4.m" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -152,6 +110,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,24 +236,19 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.main.proportions" value="0.1984691" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
-    <property name="options.searchVisible" value="true" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ex4/ex4" />
+    </key>
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -318,13 +281,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12387981" sideWeight="0.99312717" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12349727" sideWeight="0.99312717" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -395,11 +358,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ex3/ex3/ex3weights.mat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex3/ex3/oneVsAll.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="23" selection-start="523" selection-end="523" vertical-scroll-proportion="-0.09758898" />
@@ -440,11 +398,6 @@
         <state line="30" column="66" selection-start="1343" selection-end="1343" vertical-scroll-proportion="0.45350173" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex4/ex4/ex4.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="35" selection-start="6571" selection-end="6571" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex3/ex3/predict.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="40" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.0" />
@@ -467,14 +420,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ini.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="36" selection-start="0" selection-end="36" vertical-scroll-proportion="0.0">
+        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex4/ex4/_nnCostFunction.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ex4/ex4/nnCostFunction.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="0" selection-start="4178" selection-end="4178" vertical-scroll-proportion="0.4730195">
+        <state line="96" column="0" selection-start="3410" selection-end="3410" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex4/ex4/ex4.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="6" selection-start="3394" selection-end="3394" vertical-scroll-proportion="0.29032257">
           <folding />
         </state>
       </provider>

@@ -62,19 +62,24 @@ Theta2_grad = zeros(size(Theta2));
 %               and Theta2_grad from Part 2.
 %
 
-%Forward propagation
+%size(X)
 
-a1 = X;
+%J = -1 * (y' * log(sigmoid(X * theta)) + (1 - y)' * log(1 - sigmoid(X * theta))) / m;
 
-size(a1)
+%J2 = -1 * (y * log(sigmoid(X * Theta2_grad)) + (1 -y) * log(1 - sigmoid(X * Theta2_grad))) / m;
 
-a1 = [ones(size(a1,1), 1) a1];
+%J = J1 + J2
+
+a1 = [ones(m,1) X];
+
+size(a1);
+size(Theta1);
 
 z2 = a1 * Theta1';
 
 a2 = sigmoid(z2);
 
-a2 = [ones(size(a2,1), 1) a2];
+a2 = [ones(size(a2), 1) a2];
 
 z3 = a2 * Theta2';
 
@@ -82,15 +87,88 @@ a3 = sigmoid(z3);
 
 h = a3;
 
-%unroll y
+%%%% for first row from training set 0 (index 10)%%%%%%%%%
 
-yu = repmat([1:num_labels], m, 1) == repmat(y, 1, num_labels);
+%yu = zeros(num_labels, 1);
 
-%cost
-%sum error for each row, then for all rows
+%yu(y(1)) = 1;
 
-J = sum(sum(yu .* (-log(h)) + (1 - yu) .* (-log(1 - h)))) / m
+%this number is 0 (10 index)
+%y(1)
 
+%for 0 the greatest probability must be in last column
+%h(1,:)
+
+%calculate error for positive result (y = 1), min error result should be 10
+%-log(h(1,:))
+
+%we are interested only in error for hipotese which corresponds right result
+%positiveError = -log(h(1,:)) * yu
+
+%calculate error for negative result (y = 0), max error result must be for 10
+%we say wrong - and hipotese must approve this, probability = h = g(z) => ~0, (only for right result (10) should pinalize significantly but we exclude it by *)
+%this way we add to the error very little (the less the better) value (if all ok)
+%-log(1 - h(1,:))
+
+%error must be insignificant
+%negativeError = -log(1 - h(1,:)) * (1 - yu)
+
+%total_step_error = positiveError + negativeError
+
+%%%%%%%%%%%%%%now with loop%%%%%%%%%%%%
+
+J = 0;
+
+for i=1:m
+
+total_step_error = 0;
+
+yu = zeros(num_labels, 1);
+
+yu(y(i)) = 1;
+
+%this is result from training set
+%y(i)
+
+%max probability for the column y(i) (result)
+%h(i,:)
+
+%calculate error for positive result (y = 1), min error result should be in y(i)
+%-log(h(i,:))
+
+%we are interested only in error for hipotese which corresponds right result
+positiveError = -log(h(i,:)) * yu;
+
+%calculate error for negative result (y = 0), max error result must be for y(i)
+%we say wrong - and hipotese must approve this, probability = h = g(z) => ~0, (only for right result (y(i)) should pinalize significantly but we exclude it by *)
+%this way we add to the error very little (the less the better) value (if all ok)
+%-log(1 - h(i,:))
+
+%error must be insignificant
+negativeError = -log(1 - h(i,:)) * (1 - yu);
+
+total_step_error = positiveError + negativeError;
+
+J = J + total_step_error;
+
+endfor;
+
+J = J / m;
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%% evctorized form %%%%%%%%%
+
+%yunroll = repmat(1:num_labels,m,1)==repmat(y,1,num_labels);
+
+%J = sum(sum(-1 * yunroll .* log(h) - (1 - yunroll) .* log(1 - h))) / m;
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% =========================================================================
+
+% Unroll gradients
 grad = [Theta1_grad(:) ; Theta2_grad(:)];
+
 
 end
