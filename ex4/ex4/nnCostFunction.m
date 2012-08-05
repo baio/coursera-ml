@@ -39,6 +39,35 @@ Theta2_grad = zeros(size(Theta2));
 %         cost function computation is correct by verifying the cost
 %         computed in ex4.m
 %
+
+a1 = X;
+
+a1 = [ones(m,1) a1];
+
+z1 = a1 * Theta1'; %argument for sigmoid
+
+a2 = sigmoid(z1); %sigmoid for a2
+
+a2 = [ones(size(a2, 1), 1), a2]; %hidden layer 2
+
+z2 = a2 * Theta2'; %argument for sigmoid
+
+a3 = sigmoid(z2);
+
+h = a3;
+
+%cost function
+
+%unroll y
+
+uy = repmat([1:num_labels], m, 1) == repmat(y, 1, num_labels);
+
+J = sum(sum(uy .* (-log(h)) + (1 - uy) .* (-log(h-1)))) / m;
+
+r = lambda * ((sum(sum(Theta1(:, 2:end).^2))) + sum(sum(Theta2(:, 2:end).^2))) / (2 * m);
+
+J = J + r;
+
 % Part 2: Implement the backpropagation algorithm to compute the gradients
 %         Theta1_grad and Theta2_grad. You should return the partial derivatives of
 %         the cost function with respect to Theta1 and Theta2 in Theta1_grad and
@@ -54,6 +83,49 @@ Theta2_grad = zeros(size(Theta2));
 %               over the training examples if you are implementing it for the 
 %               first time.
 %
+
+for i = 1:m
+
+%forwardpropogation
+
+a1 = X(i,:);
+
+a1 = [1 a1];
+
+z1 = a1 * Theta1'; %argument for sigmoid
+
+a2 = sigmoid(z1); %sigmoid for a2
+
+a2 = [ones(size(a2, 1), 1), a2]; %hidden layer 2
+
+z2 = a2 * Theta2'; %argument for sigmoid
+
+a3 = sigmoid(z2);
+
+h = a3;
+
+%unroll y
+
+uy = [1:num_labels] == repmat(y(i), 1, num_labels);
+
+%J = sum(sum(uy .* (-log(h)) + (1 - uy) .* (-log(h-1)))) / m;
+
+%backpropogation
+
+d3 = h - uy;
+grad2 = d3' * a2;
+Theta2_grad = Theta2_grad + grad2;
+
+d2 = d3 * Theta2 .* (a2 .* (1 - a2)); %sigmoidGradient(a2);
+grad1 = (d2(:, 2:end))' * a1;
+Theta1_grad = Theta1_grad + grad1;
+
+endfor;
+
+Theta2_grad = Theta2_grad / m;
+
+Theta1_grad = Theta1_grad / m;
+
 % Part 3: Implement regularization with the cost function and gradients.
 %
 %         Hint: You can implement this around the code for
@@ -62,40 +134,10 @@ Theta2_grad = zeros(size(Theta2));
 %               and Theta2_grad from Part 2.
 %
 
-%Forward propagation
+Theta2_grad = Theta2_grad + lambda * [zeros(size(Theta2,1), 1) Theta2(:, 2:end)] / m;
 
-a1 = X;
-
-size(a1)
-
-a1 = [ones(size(a1,1), 1) a1];
-
-z2 = a1 * Theta1';
-
-a2 = sigmoid(z2);
-
-a2 = [ones(size(a2,1), 1) a2];
-
-z3 = a2 * Theta2';
-
-a3 = sigmoid(z3);
-
-h = a3;
-
-%unroll y
-
-yu = repmat([1:num_labels], m, 1) == repmat(y, 1, num_labels);
-
-%cost
-%sum error for each row, then for all rows
-
-J = sum(sum(yu .* (-log(h)) + (1 - yu) .* (-log(1 - h)))) / m;
+Theta1_grad = Theta1_grad + lambda * [zeros(size(Theta1,1), 1) Theta1(:, 2:end)] / m;
 
 grad = [Theta1_grad(:) ; Theta2_grad(:)];
-
-%regularization
-r = (lambda * (sum(sum(Theta1(:,2:end).^2)) + sum(sum(Theta2(:,2:end).^2)))) / (2 * m);
-
-J = J + r;
 
 end

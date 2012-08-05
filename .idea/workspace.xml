@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2db9e7ec-0eba-4def-b95a-424ebc240dbe" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ex4/ex4/__nnCostFunction.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex4/ex4/octave-core" afterPath="$PROJECT_DIR$/ex4/ex4/octave-core" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex4/ex4/computeNumericalGradient.m" afterPath="$PROJECT_DIR$/ex4/ex4/computeNumericalGradient.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex4/ex4/ex4.m" afterPath="$PROJECT_DIR$/ex4/ex4/ex4.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex4/ex4/ml_login_data.mat" afterPath="$PROJECT_DIR$/ex4/ex4/ml_login_data.mat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex4/ex4/nnCostFunction.m" afterPath="$PROJECT_DIR$/ex4/ex4/nnCostFunction.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex4/ex4/randInitializeWeights.m" afterPath="$PROJECT_DIR$/ex4/ex4/randInitializeWeights.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex4/ex4/sigmoidGradient.m" afterPath="$PROJECT_DIR$/ex4/ex4/sigmoidGradient.m" />
     </list>
     <ignored path="coursera-ml.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +31,80 @@
     <favorites_list name="coursera-ml" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="__nnCostFunction.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex4/ex4/__nnCostFunction.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="86" column="47" selection-start="3314" selection-end="3314" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nnCostFunction.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ex4/ex4/nnCostFunction.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="139" column="0" selection-start="4312" selection-end="4312" vertical-scroll-proportion="0.8381877">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ex4.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex4/ex4/ex4.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="172" column="0" selection-start="5753" selection-end="5753" vertical-scroll-proportion="3.516129">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="computeNumericalGradient.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex4/ex4/computeNumericalGradient.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="32" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkNNGradients.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex4/ex4/checkNNGradients.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="15" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="randInitializeWeights.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex4/ex4/randInitializeWeights.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="4" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_nnCostFunction.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex4/ex4/_nnCostFunction.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="170" column="41" selection-start="5502" selection-end="5543" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sigmoidGradient.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex4/ex4/sigmoidGradient.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="0" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -36,9 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ex1/ex1/normalEqn.m" />
-        <option value="$PROJECT_DIR$/ex1/ex1/ex1_multi.m" />
-        <option value="$PROJECT_DIR$/ex2/ex2/plotData.m" />
         <option value="$PROJECT_DIR$/ex2/ex2/sigmoid.m" />
         <option value="$PROJECT_DIR$/ex2/ex2/costFunction.m" />
         <option value="$PROJECT_DIR$/ex2/ex2/predict.m" />
@@ -50,16 +128,19 @@
         <option value="$PROJECT_DIR$/ex3/ex3/ex3_nn.m" />
         <option value="$PROJECT_DIR$/ex3/ex3/predict.m" />
         <option value="$PROJECT_DIR$/ini.txt" />
+        <option value="$PROJECT_DIR$/ex4/ex4/sigmoidGradient.m" />
+        <option value="$PROJECT_DIR$/ex4/ex4/randInitializeWeights.m" />
+        <option value="$PROJECT_DIR$/ex4/ex4/computeNumericalGradient.m" />
         <option value="$PROJECT_DIR$/ex4/ex4/ex4.m" />
         <option value="$PROJECT_DIR$/ex4/ex4/nnCostFunction.m" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="x" value="64" />
+    <option name="y" value="-5" />
+    <option name="width" value="1857" />
+    <option name="height" value="1086" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -87,16 +168,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -129,6 +200,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coursera-ml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coursera-ml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ex4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ex4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -137,8 +236,8 @@
     <property name="options.splitter.main.proportions" value="0.1984691" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -176,19 +275,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="64" y="-5" width="1857" height="1086" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12349727" sideWeight="0.99312717" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12349727" sideWeight="0.99312717" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -253,41 +352,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ex3/ex3/oneVsAll.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="23" selection-start="523" selection-end="523" vertical-scroll-proportion="-0.09758898" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex2/ex2/plotData.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex2/ex2/plotDecisionBoundary.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex2/ex2/predict.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex2/ex2/costFunctionReg.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex4/ex4/ex4weights.mat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="1" selection-start="4287" selection-end="4287" vertical-scroll-proportion="0.5944056" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex4/ex4/ex4data1.mat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex3/ex3/lrCostFunction.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="66" selection-start="1343" selection-end="1343" vertical-scroll-proportion="0.45350173" />
@@ -315,28 +379,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ini.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex4/ex4/_nnCostFunction.m">
+    <entry file="file://$PROJECT_DIR$/ex4/ex4/sigmoid.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex4/ex4/ml_login_data.mat">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ex4/ex4/__nnCostFunction.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="47" selection-start="3314" selection-end="3314" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex4/ex4/_nnCostFunction.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="170" column="41" selection-start="5502" selection-end="5543" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex4/ex4/randInitializeWeights.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="4" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex4/ex4/sigmoidGradient.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ex4/ex4/ex4.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="0" selection-start="3895" selection-end="3895" vertical-scroll-proportion="-0.82258064">
+        <state line="172" column="0" selection-start="5753" selection-end="5753" vertical-scroll-proportion="3.516129">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex4/ex4/checkNNGradients.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="15" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex4/ex4/computeNumericalGradient.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="32" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ex4/ex4/nnCostFunction.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="1" selection-start="2191" selection-end="2191" vertical-scroll-proportion="0.016129032">
+        <state line="139" column="0" selection-start="4312" selection-end="4312" vertical-scroll-proportion="0.8381877">
           <folding />
         </state>
       </provider>
