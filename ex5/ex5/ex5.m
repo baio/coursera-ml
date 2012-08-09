@@ -165,8 +165,8 @@ pause;
 %  lambda to see how the fit and learning curve change.
 %
 
-lambda = 1;
-[theta] = trainLinearReg(X_poly, y, lambda);
+lambda = 0;
+[theta] = trainLinearReg(X_poly,  y,  lambda);
 
 % Plot training data and fit
 figure(1);
@@ -219,3 +219,53 @@ end
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
+
+%% =========== Part 9: Computing test set error (for the best lambda founded)  =============
+fprintf('Calculate cost error for the poly test set with the best lamda found (3).\n');
+
+lambda = 3;
+
+[theta] = trainLinearReg(X_poly,  y,  lambda);
+
+[J, grad] = linearRegCostFunction(X_poly_val,  yval, theta, 0);
+
+J
+
+[J, grad] = linearRegCostFunction(X_poly_test,  ytest, theta, 0);
+
+J
+
+pause;
+
+return;
+
+%% =========== Part 10: Learning Curve for Linear Regression =============
+%  Next, you should implement the learningCurve function. 
+%
+%  Write Up Note: Since the model is underfitting the data, we expect to
+%                 see a graph with "high bias" -- slide 8 in ML-advice.pdf 
+%
+
+lambda = 0;
+[error_train, error_val] = ...
+    learningCurve([ones(m, 1) X], y, ...
+                  [ones(size(Xval, 1), 1) Xval], yval, ...
+                  lambda);
+
+plot(1:m, error_train, 1:m, error_val);
+title('Learning curve for linear regression')
+legend('Train', 'Cross Validation')
+xlabel('Number of training examples')
+ylabel('Error')
+axis([0 13 0 150])
+
+fprintf('# Training Examples\tTrain Error\tCross Validation Error\n');
+for i = 1:m
+    fprintf('  \t%d\t\t%f\t%f\n', i, error_train(i), error_val(i));
+end
+
+fprintf('Program paused. Press enter to continue.\n');
+pause;
+
+
+
