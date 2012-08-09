@@ -237,8 +237,6 @@ J
 
 pause;
 
-return;
-
 %% =========== Part 10: Learning Curve for Linear Regression =============
 %  Next, you should implement the learningCurve function. 
 %
@@ -246,11 +244,8 @@ return;
 %                 see a graph with "high bias" -- slide 8 in ML-advice.pdf 
 %
 
-lambda = 0;
-[error_train, error_val] = ...
-    learningCurve([ones(m, 1) X], y, ...
-                  [ones(size(Xval, 1), 1) Xval], yval, ...
-                  lambda);
+lambda = 0.01;
+[error_train, error_val] = learningCurveRandom(X_poly, y, X_poly_val, yval, lambda)
 
 plot(1:m, error_train, 1:m, error_val);
 title('Learning curve for linear regression')
