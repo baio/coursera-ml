@@ -65,9 +65,6 @@ fprintf('   [ 7.119387 3.616684 ]\n\n');
 fprintf('Program paused. Press enter to continue.\n');
 pause;
 
-
-return;
-
 %% =================== Part 3: K-Means Clustering ======================
 %  After you have completed the two functions computeCentroids and
 %  findClosestCentroids, you have all the necessary pieces to run the
@@ -89,6 +86,13 @@ max_iters = 10;
 % kMeansInitCentroids).
 initial_centroids = [3 3; 6 2; 8 5];
 
+% Randomly reorder the indices of examples
+randidx = randperm(size(X, 1));
+% Take the first K examples as centroids
+centroids = X(randidx(1:K), :);
+
+initial_centroids = centroids
+
 % Run K-Means algorithm. The 'true' at the end tells our function to plot
 % the progress of K-Means
 [centroids, idx] = runkMeans(X, initial_centroids, max_iters, true);
@@ -96,6 +100,8 @@ fprintf('\nK-Means Done.\n\n');
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
+
+return;
 
 %% ============= Part 4: K-Means Clustering on Pixels ===============
 %  In this exercise, you will use K-Means to compress an image. To do this,
