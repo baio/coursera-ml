@@ -21,10 +21,18 @@ idx = zeros(size(X,1), 1);
 % Note: You can use a for-loop over the examples to compute this.
 %
 
+size(X)
+centroids
 
-
-
-
+for i = 1:size(X,1)
+	for k =1:K
+		distance = sqrt(sumsq( X(i,1:end) - centroids(k,1:end) ));
+		if k==1 || distance<min_distance
+			min_distance = distance;
+			idx(i)=k;
+		endif
+	endfor;
+endfor;
 
 
 % =============================================================

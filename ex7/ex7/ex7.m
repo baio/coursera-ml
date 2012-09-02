@@ -66,6 +66,8 @@ fprintf('Program paused. Press enter to continue.\n');
 pause;
 
 
+return;
+
 %% =================== Part 3: K-Means Clustering ======================
 %  After you have completed the two functions computeCentroids and
 %  findClosestCentroids, you have all the necessary pieces to run the
