@@ -40,22 +40,47 @@ Theta_grad = zeros(size(Theta));
 %                     partial derivatives w.r.t. to each element of Theta
 %
 
+%size(Theta)
+%size(X)
+%size(Y)
+%size(R)
+%size(X_grad)
+%size(Theta_grad)
 
+J = sum( sum(((X * Theta' - Y).*R).^2) ) / 2 + lambda * sum(sum(Theta .^ 2)) / 2 + lambda * sum(sum(X .^ 2)) / 2;
 
-
-
-
-
-
-
-
-
-
-
-
-
+%X_grad = sum( ( ( (X * Theta' - Y) .* R ) * Theta ) )
+%Theta_grad = sum( ( ( (X * Theta' - Y) .* R ) * X  ) )
 
 % =============================================================
+for i=1:num_movies
+	%find indexes of users who rated this movie
+	idx = find(R(i, :) == 1);
+	%get features rate only for users who rated this movie
+	thetai = Theta(idx, :);
+	%get rating of movie only for users who rated it
+	yi = Y(i, idx);
+	
+	% number of movie fetures for particular movie 
+	% * (matrix of users (who rated the movie) X rate of the features for this user)
+	X_grad(i,:) = (X(i,:) * thetai' - yi) * thetai + lambda * X(i, :);
+endfor;	
+
+for i=1:num_users
+	%find indexes of movies which have been rated by this user
+	idx = find(R(:, i) == 1);
+	
+	%get features rate only for movies which have been rated by this user
+	xi = X(idx, :);
+	
+	%get rating of the movies, which have been rated by the user
+	yi = Y(idx, i);
+	
+	% number of movie fetures for particular user 
+	% * (matrix of users (who rated the movie) X rate of the features for this user)
+	Theta_grad(i,:) = ( xi * Theta(i, :)' - yi )' * xi + lambda * Theta(i, :);
+endfor;	
+
 
 grad = [X_grad(:); Theta_grad(:)];
 

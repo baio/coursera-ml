@@ -195,7 +195,7 @@ initial_parameters = [X(:); Theta(:)];
 options = optimset('GradObj', 'on', 'MaxIter', 100);
 
 % Set Regularization
-lambda = 10;
+lambda = 1.5;
 theta = fmincg (@(t)(cofiCostFunc(t, Y, R, num_users, num_movies, ...
                                 num_features, lambda)), ...
                 initial_parameters, options);
